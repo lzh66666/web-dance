@@ -1,0 +1,329 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+    font-size: 14px;
+    color: #555;
+    font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+/*-------------------------------------------------------顶部开始------------------------------------------------*/
+#top{
+	width: 1250px;
+	height: 150px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+
+.logo1{
+	float: left;
+    width: 200px;
+    height: 150px;
+    /*background: greenyellow;*/
+}
+.logo1 img{
+	margin-top: 30px;
+}
+
+.nav_top{
+	float: right;
+	width: 1000px;
+	height: auto;
+	/*background: blueviolet;*/
+}
+
+.nav_top ul li{
+	list-style: none;
+    width: 100px;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+
+.nav_top #u li:hover{
+    background: url(img/navbg.jpg);
+}
+.nav_top #u li:nth-child(8) {
+    background: url(img/navbg.jpg);
+}
+.nav_top #u li a:hover {
+    color: #bf4c5d;
+}
+.nav_top #u li img{
+    transition: all 1s;
+}
+.nav_top #u li:hover img{
+    transform: rotateY(360deg);
+}
+.nav_top #u li a {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    color: #222;
+    width: 100px;
+    height: 40px;
+    top: 105px;
+}
+.nav_top #u li img{
+	display: block;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.nav_top #u li ul{
+    position: absolute;
+    list-style: none;
+    width: 282px;
+    height: auto;
+    background-color: rgb(250,250,250,0.7);
+    top: 144px;
+    z-index: 999;
+    display: none;
+}
+.nav_top #u li:hover ul{
+    display: block;
+}
+.nav_top #u li ul li{
+    float: left;
+    margin-left: 25px;
+    height: 40px;
+    line-height: 40px;
+}
+.nav_top #u ul li:hover{
+    background:  #bf4c5d;
+}
+
+/*-------------------------------------------------------顶部结束------------------------------------------------*/
+
+.zg{
+    position: relative;
+    width: 100%;
+    top: -6px;
+}
+.zg img{
+    width: 100%;
+}
+
+/*-------------------------------------------------------视屏开始------------------------------------------------*/
+
+.growup {
+    width: 100%;
+    height: auto;
+    background: #fcf8e7 url(img/czbg.jpg) top center no-repeat;
+    min-width: 1300px;
+}
+
+.ntitle {
+    text-align: center;
+    display: block;
+    margin: 0px auto 0;
+    padding: 40px 0;
+
+}
+
+.ntitle a{
+    background: url('img/cbtn2.png') no-repeat ;
+    background-position: center;
+    background-size: 500px;
+    color: white;
+    font-size: 62px;
+    display: block;
+    line-height: 140px;
+}
+
+.videobox {
+    width: 1305px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.videobox li {
+    width: 415px;
+    height: 345px;
+    float: left;
+    margin: 10px 5px;
+    padding: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.videobox li iframe {
+    width: 415px;
+    height: 305px;
+    display: block;
+    margin: 0px auto;
+}
+.videobox li span {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    display: block;
+}
+/*-------------------------------------------------------视屏结束------------------------------------------------*/
+
+
+/*-------------------------------------------------------底部开始------------------------------------------------*/
+.foot {
+    width: 100%;
+    height: 275px;
+    background: url(img/h14.jpg) center no-repeat;
+}
+.foots {
+	margin: 0 auto;
+    width: 1100px;
+    height: 275px;
+}
+
+.flogo {
+	float: left;
+    width: 170px;
+    height: 275px;
+    background: #fff;
+}
+.flogo img {
+    padding: 35px 0 0 25px;
+}
+.fbq {
+	float: left;
+    width: 700px;
+    height: 275px;
+    margin-left: 40px;
+    display: inline;
+}
+.fbq_nav {
+    width: 700px;
+    height: 50px;
+    background: url(img/03.png) left bottom no-repeat;
+    line-height: 50px;
+    text-align: left;
+}
+.fbq_nav span {
+    padding: 0 7px;
+    color: #fff;
+}
+.fbq_nav span a {
+    color: #fff;
+}
+.fbq_con {
+    width: 700px;
+    height: auto;
+    line-height: 29px;
+    padding-top: 20px;
+    color: #fff;
+}
+.fbq_con ul{
+    list-style: none;
+    width: 700px;
+    width: 223px;
+}
+.fbq_con ul li{
+    width: 700px;
+    height: auto;
+}
+.fbq_con a {
+    color: #fff;
+}
+
+.fweima {
+	float: right;
+    width: 185px;
+    height: 185px;
+    background: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 7px;
+}
+/*-------------------------------------------------------底部结束------------------------------------------------*/
+
+
+/*-----------------------------------------------------定位区域开始----------------------------------------------*/
+
+.nav {
+    width: 93px;
+    height: 337px;
+    margin-top: -168px;
+    right: 10px;
+    /* background: red; */
+    position: fixed;
+    z-index: 999;
+}
+.nav a {
+    display: block;
+    background: url(img/right_dh.png) no-repeat;
+    width: 93px;
+    color: #333;
+    position: relative;
+}
+.nav a.right_1 {
+    margin-top: 3px;
+    background-position: left -105px;
+    height: 59px;
+}
+.nav a.right_2 {
+    margin-top: 3px;
+    background-position: left -166px;
+    height: 59px;
+}
+.nav a.right_3 {
+    margin-top: 3px;
+    background-position: left -227px;
+    height: 59px;
+}
+.nav a.right_4 {
+    margin-top: 3px;
+    background-position: left -288px;
+    height: 59px;
+}
+.nav a.right_5 {
+    margin-top: 15px;
+    background-position: left -363px;
+    height: 15px;
+}
+.xiazai {
+    position: absolute;
+    right: 74px;
+    top: 0;
+    background: url(img/right_cg_bg.png) no-repeat;
+    width: 182px;
+    height: 208px;
+    box-shadow: none;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px 0;
+    display: none;
+}
+.right_1:hover .xiazai{
+    display: block;
+}
+.xiazai img{
+    display: block;
+    margin-left: 16px;
+    width: 138px;
+    height: 138px;
+}
+
+.right_3:hover .xiazai{
+    display: block;
+}
+
+.xiazai span {
+    width: 168px;
+    display: block;
+    text-align: center;
+    color: #777777;
+    font-size: 14px;
+}
+/*------------------------------------------定位区域结束-----------------------------------*/
+
+

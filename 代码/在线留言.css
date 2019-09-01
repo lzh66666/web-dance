@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+    font-size: 14px;
+    color: #555;
+    font-family: 微软雅黑;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+/*-------------------------------------------------------顶部开始------------------------------------------------*/
+#top{
+	width: 1250px;
+	height: 150px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+
+.logo1{
+	float: left;
+    width: 200px;
+    height: 150px;
+    /*background: greenyellow;*/
+}
+.logo1 img{
+	margin-top: 30px;
+}
+
+.nav_top{
+	float: right;
+	width: 1000px;
+	height: auto;
+	/*background: blueviolet;*/
+}
+
+.nav_top ul li{
+	list-style: none;
+    width: 100px;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+.nav_top #u li:nth-child(9) {
+    background: url(img/navbg.jpg);
+}
+.nav_top #u li:hover{
+    background: url(img/navbg.jpg);
+}
+.nav_top #u li a:hover {
+    color: #bf4c5d;
+}
+.nav_top #u li img{
+    transition: all 1s;
+}
+.nav_top #u li:hover img{
+    transform: rotateY(360deg);
+}
+.nav_top #u li a {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    color: #222;
+    width: 100px;
+    height: 40px;
+    top: 105px;
+}
+.nav_top #u li img{
+	display: block;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.nav_top #u li ul{
+    position: absolute;
+    list-style: none;
+    width: 282px;
+    height: auto;
+    background-color: rgb(250,250,250,0.7);
+    top: 149px;
+    z-index: 999;
+    display: none;
+}
+.nav_top #u li:hover ul{
+    display: block;
+}
+.nav_top #u li ul li{
+    float: left;
+    margin-left: 25px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.nav_top #u ul li:hover{
+    background:  #bf4c5d;
+}
+
+/*-------------------------------------------------------顶部结束------------------------------------------------*/
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.til_advance {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 2px solid #c7000a;
+    padding-top: 20px;
+}
+
+.til_advance h3 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #c7000a;
+    font-weight: normal;
+    padding-left: 10px;
+    float: left;
+    padding-right: 10px;
+}
+
+.til_advance span {
+    color: #666;
+    line-height: 42px;
+}
+.box_message {
+    width: 840px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 35px 0 45px 0;
+}
+
+.box_message table tr td.lf_tab {
+    width: 250px;
+    padding: 0 10px;
+    background: #ececec;
+    text-align: right;
+}
+
+.box_message table tr td.rt_tab {
+    width: 550px;
+    padding: 0 10px;
+}
+
+.box_message table tr td.lf_tab span {
+    color: #c7000a;
+    padding-right: 5px;
+}
+
+.box_message table tr td.rt_tab span {
+    font-size: 12px;
+    color: #666;
+}
+
+.box_message table tr td.rt_tab .txt {
+    width: 270px;
+    height: 24px;
+    border: 1px solid #cbcbcb;
+    overflow: hidden;
+    background: #fff;
+    color: #404040;
+    line-height: 24px;
+}
+.box_message table tr td.rt_tab textarea {
+    width: 540px;
+    line-height: 24px;
+    border: 1px solid #cbcbcb;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 5px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #404040;
+    line-height: 24px;
+    margin: 5px 0;
+}
+.box_message .btn {
+    display: block;
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #c7000a;
+    border: none;
+    cursor: pointer;
+    margin: 25px auto 0;
+    float: left;
+    margin: 25px 75px 0 15px;
+}
+
+
+#liu .code
+{
+     font-family:Arial;
+     font-style:italic;
+     color:blue;
+     font-size:30px;
+     border:0;
+     padding:2px 3px;
+     letter-spacing:3px;
+     font-weight:bolder;            
+     float:left;           
+     cursor:pointer;
+     width:150px;
+     height:50px;
+     line-height:60px;
+     text-align:center;
+     vertical-align:middle;
+     background-color:#D8B7E3;
+ }
+#liu   span {
+    text-decoration:none;
+    font-size:12px;
+    color:#288bc4;
+    padding-left:10px;
+}
+
+#liu  span:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#inputCode{
+	float: left;
+	width: 238px;
+	height: 56px;
+	font-size: 30px;
+}
+
+.comment {
+    font-size: 40px;
+    color: yellow;
+}
+
+.comment li {
+    float: left;
+    cursor: pointer;
+}
+/*-------------------------------------------------------底部开始------------------------------------------------*/
+.foot {
+	margin-top: 20px;
+    width: 100%;
+    height: 275px;
+    background: url(img/h14.jpg) center no-repeat;
+}
+.foots {
+	margin: 0 auto;
+    width: 1100px;
+    height: 275px;
+}
+
+.flogo {
+	float: left;
+    width: 170px;
+    height: 275px;
+    background: #fff;
+}
+.flogo img {
+    padding: 35px 0 0 25px;
+}
+.fbq {
+	float: left;
+    width: 700px;
+    height: 275px;
+    margin-left: 40px;
+    display: inline;
+}
+.fbq_nav {
+    width: 700px;
+    height: 50px;
+    background: url(img/03.png) left bottom no-repeat;
+    line-height: 50px;
+    text-align: left;
+}
+.fbq_nav span {
+    padding: 0 7px;
+    color: #fff;
+}
+.fbq_nav span a {
+    color: #fff;
+}
+.fbq_con {
+    width: 700px;
+    height: auto;
+    line-height: 29px;
+    padding-top: 20px;
+    color: #fff;
+}
+.fbq_con ul{
+    list-style: none;
+    width: 700px;
+    width: 223px;
+}
+.fbq_con ul li{
+    width: 700px;
+    height: auto;
+}
+.fbq_con a {
+    color: #fff;
+}
+
+.fweima {
+	float: right;
+    width: 185px;
+    height: 185px;
+    background: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 7px;
+}
+/*-------------------------------------------------------底部结束------------------------------------------------*/
+
+
+

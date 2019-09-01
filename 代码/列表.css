@@ -1,0 +1,181 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+    font-size: 14px;
+    color: #555;
+    font-family: 微软雅黑;
+    background: #FFEEF7;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+
+/*-------------------------------------------------------主持开始------------------------------------------------*/
+#zhuci {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#zhuci_head {
+    width: 1100px;
+    height: 350px;
+}
+#zhuci_nav {
+    width: 1100px;
+    height: 69px;
+    background: url(img/nav.jpg) repeat-x;
+}
+
+#zhuci_nav ul li {
+    width: 220px;
+    height: 69px;
+    line-height: 69px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #ed1b24;
+}
+.zulibg {
+    background: url(img/01.jpg) right no-repeat;
+}
+#zhuci_nav ul li a {
+    display: block;
+    color: #ed1b24;
+}
+
+
+
+.zhuci_con {
+    width: 1040px;
+    height: 930px;
+    padding: 30px;
+    background: #fff;
+    line-height: 28px;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+}
+
+.zhuci_con ul li {
+    width: 1040px;
+    background: #f4f4f4;
+    height: 300px;
+    text-align: left;
+    line-height: 35px;
+    margin: 10px auto;
+}
+.zhuci_con ul{
+	height: 200%;
+	position: absolute;
+	left: 30px;
+	animation: moving 5s linear infinite;
+}
+@keyframes moving {
+    from {
+        transform: translateY(0);
+    }
+    to {
+    
+        transform: translateY(-930px);
+    }
+}
+.zhuci_con:hover ul {  
+    animation-play-state:paused;
+}
+
+
+.zhuci_con ul li em {
+    line-height: 50px;
+    font-size: 20px;
+    color: #222;
+}
+.zhuci_con ul li p {
+    line-height: 28px;
+    padding-right: 20px;
+    color: #555;
+}
+.zhuci_con ul li img {
+    width: 335px;
+    height: 300px;
+    padding-right: 15px;
+    float: left;
+}
+
+.h20{
+	margin: 0 auto;
+	width: 1100px;
+	height: 20px;
+	background: white;
+}
+/*-------------------------------------------------------主持结束------------------------------------------------*/
+
+
+/*-------------------------------------------------------底部开始------------------------------------------------*/
+.foot {
+    width: 100%;
+    height: 275px;
+    background: url(img/h14.jpg) center no-repeat;
+}
+.foots {
+	margin: 0 auto;
+    width: 1100px;
+    height: 275px;
+}
+
+.flogo {
+	float: left;
+    width: 170px;
+    height: 275px;
+    background: #fff;
+}
+.flogo img {
+    padding: 35px 0 0 25px;
+}
+.fbq {
+	float: left;
+    width: 700px;
+    height: 275px;
+    margin-left: 40px;
+    display: inline;
+}
+.fbq_nav {
+    width: 700px;
+    height: 50px;
+    background: url(img/03.png) left bottom no-repeat;
+    line-height: 50px;
+    text-align: left;
+}
+.fbq_nav span {
+    padding: 0 7px;
+    color: #fff;
+}
+.fbq_nav span a {
+    color: #fff;
+}
+.fbq_con {
+    width: 700px;
+    height: auto;
+    line-height: 29px;
+    padding-top: 20px;
+    color: #fff;
+}
+.fbq_con a {
+    color: #fff;
+}
+
+.fweima {
+	float: right;
+    width: 185px;
+    height: 185px;
+    background: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 7px;
+}
+/*-------------------------------------------------------底部结束------------------------------------------------*/
